@@ -390,6 +390,8 @@ max-width: 264px;
 }
 
 .socials-container {
+
+    padding: 15px 0px;
     display: flex;
     gap: 16px;
 }
@@ -418,4 +420,33 @@ max-width: 264px;
 
 .social-icon {
     fill: #f4f4fd;
+}
+.footer-subscribe-container{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-left: 80px;
+}
+.footer-input{
+color: #ffffff;
+    width: 264px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: solid 1px #ffffff;
+}
+.footer-input::placeholder{
+    color: #ffffff;
+    padding: 8px 16px;
+}
+.footer-button{
+    
+    margin-left: 24px;
+    height: 40px;
+    width: 165px;
+    color: #FFFFFF;
+    background-color: #404BBF;
+    border: none;
+    border-radius: 5px;
 }
